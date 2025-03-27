@@ -1,0 +1,166 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Style for the border element */
+.page-border {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px; /* Adjust the height of your border as needed */
+  background-color: rgb(110, 148, 199);
+  display: flex;
+  justify-content: space-between; /* Aligns the text on the left and right */
+  align-items: center;
+  font-size: 12px; /* Text font size */
+}
+
+/* Style for the left-aligned text */
+.left-text {
+  margin-left: 10px; /* Adjust the left margin as needed */
+}
+
+/* Style for the right-aligned text */
+.right-text {
+  margin-right: 10px; /* Adjust the right margin as needed */
+}
+
+.page-content {
+  /* font: 16px Arial, sans-serif; */
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* max-width: 600pt; */
+  margin-left: 50pt;
+  margin-right: 50pt;
+  margin-bottom: 50px;
+  padding: 0px 20px;
+  text-align:justify;
+}
+
+h1,h2{
+  font-family:unistra, sans-serif;
+  color: slategray;
+
+  margin: 0px;
+  padding-bottom: 0px; 
+  padding-top: 20px;
+}
+
+hr{
+    height: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 0;
+	border-top: 1px solid slategray;
+}
+
+
+.parallax {
+  background-color:rgb(110, 148, 199);
+
+  /* Set a specific height */
+  min-height: 300px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  font: 16px Arial, sans-serif;
+  justify-content: space-between;
+
+}
+
+.side-images{
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 300px; 
+  text-align: center
+}
+
+.coverartist{
+    float:right;
+    text-align: right;
+    font: 8pt unistra;
+}
+
+.maj{
+    float: left;
+    text-align: left;
+    font: 8pt unistra;
+}
+
+
+.bottom {
+  /* The image used */
+  background-color: rgb(110, 148, 199);
+
+  /* Set a specific height */
+  min-height: 50px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: 35px;
+}
+
+
+.menu {
+    display: flex;
+    padding-left: 120pt;
+    background-color: "none";
+    justify-content: left;
+    border: 1px solid #000000;  /* Ajout d'une bordure */
+    background-color:rgb(160, 185, 218);
+
+}
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+.menu a {
+    font-family: unistra, sans-serif;
+    font-size: 24px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    display:block;                /* Transformation en block */
+    min-width: 180px;             /* Largeur minimale des liens */
+    margin-left: 5pt;
+    margin-right: 5pt;
+    text-align: center;           /* Centrage du texte */
+    color: #ffffff;             /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+}
+
+.menu b {
+  font-family: unistra, sans-serif;
+  font-size: 24px;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  display:block;                /* Transformation en block */
+  min-width: 180px;             /* Largeur minimale des liens */
+  margin-left: 10pt;
+  margin-right: 10pt;            
+  text-align: center;           /* Centrage du texte */
+  color: #ffffff;             /* Couleur du texte */
+  text-decoration: none;        /* Suppression du soulignement */
+  background-color:rgb(110, 148, 199);
+  border: 1px solid #000000;  /* Ajout d'une bordure */
+
+}
+
+
